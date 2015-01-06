@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -avr --exclude update.bash --exclude node_modules --exclude Documentation --exclude .DS_Store --exclude "documentation" --exclude less --exclude '.git' -e ssh $PWD/ apstatic@ascensiontest.com:"~/willyoufollow.com/"
