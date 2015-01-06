@@ -20,7 +20,7 @@
     font-family: 'Lato', sans-serif;
 } 
 body { 
-	background: #fff; 
+	background: #fff;
 	margin: 0; 
 	color: #5a5a5a;
 }
@@ -182,7 +182,6 @@ input {
 	-ms-transition: all .4s linear, color .4s linear;
 	transition: all .4s linear, color .4s linear;
 }
-
 #btn-learn-more:hover {
 	color: #ffd454;
 	border: solid 2px #ffd454;
@@ -214,14 +213,9 @@ input {
     background-size: cover;
 }
 
-#h h1 bold {
-	font-weight: 900;
-	font-size: 40px;
-	letter-spacing: 1px;
-}
-
 #h h1 {
-	font-size: 40px;
+	font-size: 170px;
+	/*font-size: 12.5vw;*/
 	letter-spacing: 1px;
 }
 
@@ -230,79 +224,39 @@ input {
 	letter-spacing: 0.8px;
 	margin-bottom: 25px;
 }
-
-/* COUNTDOWN CONFIGURATION */
-
-.countdown-divider {
-  padding: 144px 0px;
-}
-.countdown-divider img, {
-  max-width: 300px;
-  display: inline-block;
-  margin-bottom: 12px;
-}
-.countdown-header h1 {
-  margin-bottom: 0px;
-}
-.countdown-header:before {
-  opacity: 0.8 !important;
+#h #header {
+	text-transform: uppercase; 
+	opacity: .2;
+	letter-spacing: 0px;
+	margin-top: 10px;
 }
 
-.countdown-header .uppercase {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 24px;
+@media (max-width: 480px) {
+	#h h1 {
+		font-size: 43px;
+	}
 }
-@media all and (max-width: 768px) {
-  .countdown-header img{
-    max-width: 150px;
-  }
+@media (min-width: 480px) {
+	#h h1 {
+		font-size: 63px;
+	}
 }
-.countdown {
-  text-align: center;
-  margin-top: 72px;
+@media (min-width: 768px) {
+	#h h1 {
+		font-size: 100px;
+	}
 }
-.countdown-row {
-  color: #2f2f2f;
-  font-size: 80px;
-  font-weight: 300;
+@media (min-width: 992px) {
+	#h h1 {
+		font-size: 132px;
+	}
 }
-.countdown-section {
-  width: 20%;
-  display: inline-block;
-}
-.countdown-amount {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-.countdown-period {
-  display: block;
-  font-size: 24px;
+@media (min-width: 1200px) {
+	#h h1 {
+		font-size: 161px;
+	}
 }
 
-@media all and (max-width: 767px) {
-  .countdown {
-    margin-top: 48px;
-  }
-  .countdown-row {
-    font-size: 36px;
-  }
-  .countdown-period {
-    font-size: 16px;
-  }
-}
-
-
-/* Grey Section */
-#g {
-	padding-bottom: 80px;
-	padding-top: 80px;
-	background: #f8f8f8;
-}
-
-i {
-	font-size: 60px;
-}
 
 /* FOOTER */
 
