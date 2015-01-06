@@ -166,6 +166,7 @@ input {
 
 .btn-custom {
 	display: inline-block;
+	width: 350px;
 	margin: 30px;
 	padding: 20px 55px;
 	color: white;
